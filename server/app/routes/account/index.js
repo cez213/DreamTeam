@@ -38,7 +38,7 @@ router.post('/', function(req, res, next) {
 })
 
 //Update a user
-router.put('/:id', function(req, res, next) {
+router.post('/:id', function(req, res, next) {
 	User.findOneAndUpdate({
 		_id: req.params.id
 	}, {

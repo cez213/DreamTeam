@@ -14,7 +14,7 @@ app.factory('UserFactory', function($http) {
 		},
 		updateUser: function(id, data) {
 			// console.log(this);
-			return $http.put(`api/account/${id}`, data)
+			return $http.post(`api/account/${id}`, data)
 				.then(function(res) {
 					return res.data;
 				})
