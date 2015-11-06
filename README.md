@@ -1,24 +1,7 @@
 # DreamTeam
 One vinyl e-commerce site to rule them all.
 
-#To-Do
-  - Admin Dashboard	=> add promos, create-an-album function, block off non-admins (https://github.com/angular-ui/ui-router/wiki/Frequently-Asked-Questions#how-to-create-rules-to-prevent-access-to-a-state)
+This is the StackStore project for the Fullstack Academy. This purpose of this project is to build an e-commerce platform that will allow your client to create, manage and run an e-commerce site.
 
-  - Reviews	=> Ability to add more reviews.
-
-  - Discovery Page => random artist. make look pretty.	
-
-  - Styling	(carousel)	
-
-  - Shopping Cart	=> Finish transaction. Incorporate promo.	
-
-  - Profile					
-  	1) View transaction history ~~> easy.
-  	2) ability to change password
-
-  - Promotion 	
-  - On Login (if triggerPWChange === true, force change password)
-  - In store, if product is out of stock, don't show (ng-if in store).
-  
-  - Spotify API				
+This site makes choosing vinyl records easy, as it incorporates the tracks for each record from Spotify. Users managing the site can add albums, without having to include the album's tracks. The site will search Spotify's API for the correct songs, and display them on the product's page.
    
